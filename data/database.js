@@ -12,7 +12,6 @@ console.log(`clusterAddress - ${clusterAddress}`);
 console.log(`dbUser - ${dbUser}`);
 console.log(`dbPassword - ${dbPassword}`);
 console.log(`dbName - ${dbName}`);
-console.log(`uri - ${uri}`);
 console.log('Trying to connect to db');
 
 try {
