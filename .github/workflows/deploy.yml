@@ -13,7 +13,7 @@ jobs:
     env:
       MONGODB_CLUSTER_ADDRESS: ghademo.ez7cc2k.mongodb.net
       MONGODB_USERNAME: saikondamu
-      MONGODB_PASSWORD: 8bDTlQvVnT1hstwc
+      MONGODB_PASSWORD: gYJFjuCFv1JBa12P
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
