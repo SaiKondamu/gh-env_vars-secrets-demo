@@ -8,6 +8,7 @@ env:
   MONGODB_DB_NAME: gha-demo
 jobs:
   test:
+    environment: testing
     env:
       MONGODB_CLUSTER_ADDRESS: ghademo.ez7cc2k.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
@@ -36,4 +37,4 @@ jobs:
     steps:
       - name: Output information
         run: |        
-          run: echo "MONGODB_DB_NAME - ${{ env.MONGODB_DB_NAME}}"
+          run: echo "..."
