@@ -12,8 +12,8 @@ jobs:
     environment: testing
     env:
       MONGODB_CLUSTER_ADDRESS: ghademo.ez7cc2k.mongodb.net
-      MONGODB_USERNAME: saikondamu
-      MONGODB_PASSWORD: gYJFjuCFv1JBa12P
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
@@ -38,4 +38,4 @@ jobs:
     steps:
       - name: Output information
         run: |        
-          run: echo "..."
+          echo "..."
